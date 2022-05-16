@@ -1,3 +1,6 @@
+# put your outputs here
+
+# context outputs
 output "id" {
   value       = local.enabled ? module.label.id : ""
   description = "Disambiguated ID string restricted to `id_length_limit` characters in total"
